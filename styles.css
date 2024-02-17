@@ -1,0 +1,132 @@
+body {
+    background: url("image2.png");
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin: 0;
+    padding: 0px 0;
+}
+h1{
+    background-color: transparent;
+    font-size: 4em;
+    color: white;
+    text-align: center;
+    padding: 30px;
+}
+h2{
+    font-size: 3.8em;
+    color: white;
+    text-align: center;
+    margin: -35px;
+}
+header.left {
+    background-color: transparent;
+    padding: 10px 0;
+}
+
+button.toggle-btn {
+        top: -49px;
+        text-align: right;
+        font-family: cursive;
+        padding: 10px;
+        border: 0px;
+        margin: 50px;
+}
+button:hover{
+    color: pink;
+}
+nav {
+    display: flex;
+    justify-content: space-between;
+    height: 80px;
+    background-color: transparent;
+    padding: 2%;
+    align-items: center;
+}
+
+nav ul {
+    list-style-type: none;
+    justify-content: center;
+    display: flex;
+    margin: 30px;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-family: cursive;
+    font-size: 2.5em;
+    margin-left: 400px;
+}
+.hero h1 {
+    background-size: cover;
+    color: rgb(235, 77, 77);
+    font-size: 3em;
+    font-family: cursive;
+    text-align: center;
+    padding: 10px 0;
+}
+
+.hero h4 {
+    background-size: cover;
+    color: #603030;
+    font-size: 2em;
+    font-family: cursive;
+    text-align: center;
+    padding: 0px 0;
+}
+
+.hero p {
+    text-align: center;
+    font-size: 1.5em;
+    color: black;
+    font-family: cursive;
+}
+
+.content {
+    padding: 20px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 1em;
+}
+
+footer {
+    background-color: transparent;
+    color: black;
+    text-align: center;
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    padding: 40px 0;
+    margin: 4px 0px;
+}
+
+.sidebar {
+    position: relative;
+    top: -219px;
+    width: 250px;
+    height: 99vh;
+    background: transparent;
+    color: #fff;
+    margin: 30px;
+    transition: left 0.3s;
+}
+div.navbar ul li a{
+    color: white;
+    font-size: 1.3em;
+    text-decoration: none;
+    font-family: cursive;
+}
+
+.toggle-btn {
+    position: fixed;
+    top: -14px;
+    left: -48px;
+    cursor: pointer;
+}
